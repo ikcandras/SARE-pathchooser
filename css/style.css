@@ -348,7 +348,7 @@ button {
      max-width: 600px;
      width: 100%;
      float: right;
-     padding-right: 130px;
+     padding-right: 10px;
 }
 
 .text-bg h1 {
@@ -361,17 +361,16 @@ button {
 }
 .text-bg h3 {
      color: #fff;
-     font-size: 48px;
-     line-height: 65px;
-     font-weight: bold;
-     padding: 0px;
+     font-size: 28px;
+     font-weight: 500;
+     padding: 20px 0px;
 }
 
 .text-bg p {
      color: #fff;
      font-size: 17px;
      line-height: 28px;
-     padding: 20px 0;
+     padding: 10px 0;
 }
 
 .text-bg a {
@@ -739,7 +738,7 @@ button {
 }
 
 .cont {
-     text-align: center;
+     text-align: start;
      margin-top: 80px;
 }
 
@@ -770,12 +769,14 @@ button {
 }
 
 ul.social_icon {
-     text-align: center;
+     text-align: end;
+
 }
 
 ul.social_icon li {
      display: inline-block;
      margin: 0 3px;
+     text-align: center;
 }
 
 ul.social_icon li a {
@@ -800,17 +801,6 @@ ul.social_icon li a:hover {
      margin-top: 50px;
      position: relative;
 }
-
-.copyright::after {
-     content: "";
-     position: absolute;
-     bottom: 61px;
-     background: url(../images/bottom.png);
-     width: 290px;
-     height: 292px;
-     right: 0;
-}
-
 .copyright p {
      color: #fff;
      font-size: 18px;
@@ -826,6 +816,8 @@ ul.social_icon li a:hover {
      color: #23262d;
 }
 
-
 /** end footer **/
-
+/* footer */
+footer{
+     padding: 15px;
+}
