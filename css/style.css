@@ -347,8 +347,8 @@ button {
      text-align: left;
      max-width: 600px;
      width: 100%;
-     float: right;
-     padding-right: 10px;
+     float: left;
+     padding-left: 50px;
 }
 
 .text-bg h1 {
@@ -361,16 +361,17 @@ button {
 }
 .text-bg h3 {
      color: #fff;
-     font-size: 28px;
-     font-weight: 500;
-     padding: 20px 0px;
+     font-size: 48px;
+     font-weight: bold;
+     height: fit-content;
 }
 
 .text-bg p {
      color: #fff;
-     font-size: 17px;
+     font-size: 18px;
      line-height: 28px;
-     padding: 10px 0;
+     font-weight: 400;
+     padding: 20px 0;
 }
 
 .text-bg a {
@@ -408,13 +409,12 @@ button {
 
 .titlepage {
      text-align: center;
-     padding-bottom: 60px;
+     padding-bottom: 30px;
 }
 
 .titlepage h2 {
-     font-size: 40px;
+     font-size: 28px;
      color: #3e3e3e;
-     line-height: 35px;
      font-weight: bold;
      padding: 0;
      padding-bottom: 20px;
@@ -456,8 +456,10 @@ button {
      margin: 0;
 }
 
-.business .business_box figure img {
+.business .business_box figure video {
      width: 100%;
+     border-radius: 20px;
+     border: none;
 }
 
 .business .business_box p {
@@ -818,6 +820,3 @@ ul.social_icon li a:hover {
 
 /** end footer **/
 /* footer */
-footer{
-     padding: 15px;
-}
