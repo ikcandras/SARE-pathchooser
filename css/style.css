@@ -304,7 +304,7 @@ button {
 /*--------------------------------------------------------------------- layout new css ---------------------------------------------------------------------*/
 
 .head_top {
-  background: url(../images/banner.png);
+  background: url(../images/banner.svg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -338,7 +338,8 @@ button {
 }
 
 .text-bg h1 {
-  color: #000;
+  color: #4A628A;
+  font-family: "DM Sans", sans-serif;
   font-size: 48px;
   line-height: 65px;
   font-weight: bold;
@@ -441,10 +442,29 @@ button {
   flex-wrap: wrap;
 }
 
+/* Marquee text animation */
+.marqueetext{
+  /* border: 1px solid black; */
+  padding: 0px; 
+  font-size: 48px;
+  font-family: "DM sans", sans-serif;
+  font-weight: bold;
+  height: fit-content;
+  color: #008df3;
+  margin-top: 50px;
+}
+marquee .sapu{
+  height: 200px;
+  width: 200px;
+}
+marquee{
+  height: max-content;
+}
+/* Marquee text animation end*/ 
 /** business section **/
 
 .business {
-  padding-top: 90px;
+  padding-top: 20px;
 }
 
 .business .titlepage span {
