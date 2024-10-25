@@ -468,18 +468,19 @@ marquee{
 }
 
 .business .titlepage span {
-  color: #0891f8;
+  color: #4A628A;
   font-size: 30px;
-  font-family: "Baloo Chettan", cursive;
-  text-transform: uppercase;
+  font-family: "DM sans", sans-serif;
   line-height: 37px;
   padding-bottom: 10px;
+  font-weight: bold ;
   display: inline-block;
 }
 
 .business .titlepage h2 {
   color: #272f43;
   font-weight: normal;
+  font-size: 24px;
 }
 
 .business .business_box {
@@ -513,6 +514,55 @@ marquee{
   background: #0891f8;
 }
 
+.Btn-Container-Center {
+  display: flex;
+  width: 190px;
+  height: fit-content;
+  background-color: #1d2129;
+  border-radius: 40px;
+  box-shadow: 0px 5px 10px #bebebe;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+.icon-Container {
+  width: 45px;
+  height: 45px;
+  background-color: #3B7EFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 3px solid #1d2129;
+}
+.text {
+  width: calc(170px - 45px);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.1em;
+}
+.icon-Container svg {
+  transition-duration: 1.5s;
+}
+.Btn-Container:hover .icon-Container svg {
+  transition-duration: 1.5s;
+  animation: arrow 1s linear infinite;
+}
+@keyframes arrow {
+  0% {
+    opacity: 0;
+    margin-left: 0px;
+  }
+  100% {
+    opacity: 1;
+    margin-left: 10px;
+  }
+}
+
 /** end business section **/
 
 /** projects section **/
@@ -535,7 +585,7 @@ marquee{
 .projects .titlepage span {
   color: #0891f8;
   font-size: 30px;
-  font-family: "Baloo Chettan", cursive;
+  font-family: "DM sans", sans-serif;
   text-transform: uppercase;
   line-height: 37px;
   padding-bottom: 10px;
